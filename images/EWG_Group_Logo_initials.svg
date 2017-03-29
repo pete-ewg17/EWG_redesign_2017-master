@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FBB040;}
+	.st1{fill:#4F4F51;}
+	.st2{fill:#00BDF2;}
+	.st3{fill:#B2D235;}
+	.st4{opacity:0.74;fill:url(#SVGID_1_);}
+	.st5{opacity:0.74;fill:url(#SVGID_2_);}
+</style>
+<polygon class="st0" points="237.6,106.4 325.5,106.4 353.7,179 310.5,296.4 "/>
+<polygon class="st1" points="512.7,106.5 594.9,106.5 553.9,219.3 "/>
+<polygon class="st2" points="527.5,291.7 485.4,407.4 419.7,221.2 460.9,106.4 "/>
+<polygon class="st3" points="379.7,106.4 460.9,106.4 352.8,407.4 310.5,296.4 "/>
+<g>
+	<path class="st1" d="M85,407.6V106.5h138.7v54.1h-78.7v68.1h67.7v54.1h-67.7v70.6h78.7v54.1H85z"/>
+</g>
+<g>
+	<path class="st1" d="M671.4,407.9c-33.8,0-51.6-13.3-65.6-29.4c-24.1-28.2-22.4-81.6-22.4-121.4c0-39.8-1.7-93.2,22.4-121.4
+		c14-16.2,31.7-29.4,65.6-29.4c25.4,0,45.3,8.3,59.6,22c16.1,15.7,24.5,38.9,25.8,65.9h-60.1c-0.4-12.4-2.5-34.8-25.4-34.8
+		c-11,0-16.5,5-19.9,11.6c-7.2,13.7-8,50.5-8,86.2s0.8,72.5,8,86.2c3.4,6.6,8.9,11.6,19.9,11.6c19.9,0,25.4-18.2,25.4-34.4v-30.6
+		h-25v-47.6h85v75C756.9,376,723,407.9,671.4,407.9z"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="281.7259" y1="142.8591" x2="348.7225" y2="250.8988">
+	<stop  offset="0" style="stop-color:#FBB040;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#000000;stop-opacity:0.3"/>
+</linearGradient>
+<polygon class="st4" points="237.6,106.4 325.5,106.5 353.5,178.4 310.5,296.4 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="489.9625" y1="287.6587" x2="437.5769" y2="191.7415">
+	<stop  offset="0" style="stop-color:#00C2F3;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#000000;stop-opacity:0.3"/>
+</linearGradient>
+<polygon class="st5" points="527.5,291.7 485.4,407.4 419.7,221.2 460.9,106.4 "/>
+</svg>

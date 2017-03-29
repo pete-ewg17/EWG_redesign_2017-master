@@ -1,0 +1,558 @@
+/*================
+
+ General Styles
+
+================*/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {    
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #444;
+    letter-spacing: 0.1rem;
+}
+
+h3 {
+    font-weight: 300;
+    color: #444;
+}
+
+.tagline {
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-top: 1.9em;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border-color: #444;
+    color: #444;
+    margin: 1.3em 0;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+.btn-form {
+    background-color: #fff;
+    border-color: #444;
+    color: #444;
+    margin: 1.3em 0;
+}
+
+.btn-form:hover{
+    background-color: #555;
+    border-color: #555;
+}
+
+/*================
+
+ Menu Animation
+
+================*/
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+
+/*================
+
+ Delayed 075s
+
+================*/
+
+.delayed_035s {
+    -webkit-animation-delay: 0.35s;
+    animation-delay: 0.75s;
+}
+
+/*================
+
+ Nav Styles
+
+================*/
+
+.navbar {
+    box-shadow: 0px 6px 49px 0px rgba(0,0,0,0.56);
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo {
+    min-height: 30px;
+    height: 5em;
+    margin-top: -1.5em;
+}
+
+.mark {
+    background-color: #fbb044; 
+}
+
+/*================
+
+ Header Styles
+
+================*/
+
+.header-container{
+    width:100%;
+    height: 100%;
+    border-right: none;
+    border-left: none;
+    position: relative;
+    padding: 20px;
+    z-index: 1;
+}
+
+.movie-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    z-index: -10;
+    width: 100%; 
+}
+
+/*video {
+    position: absolute;
+    z-index: -10;
+    width: 100%; 
+}*/
+
+.brandvideo {
+    max-width: 100%;
+    height: auto;
+   padding-top: 4em;
+    
+    
+}
+
+/*================
+
+ Header Styles
+
+================*/
+
+
+.intro-header {
+    padding-top: 50px;  /*If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    /*background:url("../images/header_bg.jpg") no-repeat center center;*/
+    background-size: cover;
+    min-height: 70%;   
+}
+
+
+.intro-message {
+   padding-top: 12%;
+   margin-left: 0.4em;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+
+ .intro-message > h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+
+.intro-message > p {
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-top: 1.0em;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+
+/*== HEADER MEDIA QUERIES ==*/
+@media(max-width:767px) {
+    
+    .intro-header {
+        min-height: 50%;
+        background: url(../images/header_bg.jpg) no-repeat center center;
+    }
+    
+    
+    .movie-container,
+    .header-container {
+        display: none;
+    }
+    
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        margin-top: 0.2em;
+        font-size: 3em;
+        line-height: 1.1em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/*================
+
+ Client Styles
+
+================*/
+
+.content-section-a {
+    padding: 50px 0;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #e6e6e6;
+}
+
+.section-heading  {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
+
+@media(max-width:767px){
+    .clients {
+        margin-top: 2.6em;
+    }
+}
+
+/*===============
+Placement With Purpose
+=================*/
+
+@media(max-width:767px) {
+    
+    .tagline {
+        margin-top: 1.2em;
+    }
+    
+    
+    .video-container {
+        margin-top: 2.6em;
+        }
+}
+
+.banner {
+    padding: 20px 0;
+    color: #525252;
+    background-size: cover;
+    background-color: #525252;
+}
+
+.banner h2 {
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    margin-top: 0;
+    text-align: center;
+}
+
+.social-button a {
+    border: none;
+    font-size: 1.8em;
+}
+
+.social-button a:hover {
+    background-color: #525252;
+    color: #fff;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+        padding: 1.4em;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        margin-bottom: 20px;  
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*================
+
+ YOUTUBE Responsive Styles
+
+================*/
+
+
+.video-container{
+    position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.embed-responsive-item {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*================
+
+ EWG GROUP STYLES
+
+================*/
+
+.head-acad {
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.thumbnail .caption {
+    padding: 0 24px;
+}
+
+.caption > p {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: 0px 3px 38px 1px rgba(0, 0, 0, 0.2); 
+}
+
+.th-logo {
+    margin: 1em 2em;
+}
+
+
+
+/*================
+     Footer Styles
+    ================*/
+
+    footer {
+        padding: 2.8em 0;   
+    }
+
+    .footer-img {
+        max-width: 100%;
+        background: url("../assets/images/footer-3.jpg") no-repeat center center;
+        background-size: cover;
+        background-position: fixed;
+    }
+
+     a {
+        color: #444;
+
+    }
+
+    p.copyright {
+        margin: 15px 0 0;
+        color: #444;
+    }
+
+
+    .footer-logo {
+        height: 2.8em;
+    }
+
+    .back-to-top,
+    .back-to-top:hover,
+    .back-to-top:focus{
+        cursor: pointer;
+        position: fixed;
+        bottom: 1.25rem;
+        right: 0.125rem;
+        display:none;
+        border: none;
+        background: transparent;
+    }
+
+/*================
+
+ Modal Contact
+
+================*/
+.modal-content {
+	border-radius: 0px;
+}
+
+.modal-header {
+	background: #555;
+	color: white;
+}
+
+.modal-header h4 {
+	font-weight: 700;
+}
+
+.modal-body {
+	background: #f2f2f2;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+.modal-body a {
+    color: #555;
+}
+
+.modal-footer {
+	background: #f2f2f2;
+	margin-top: 0px; 
+    border: none;
+}
+
+
+/* MENU ANIMATION */
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+
+
+
+
+
+
