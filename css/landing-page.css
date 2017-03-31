@@ -440,7 +440,7 @@ Placement With Purpose
 
     .footer-img {
         max-width: 100%;
-        background-image: url("../images/footer-3.jpg") no-repeat center center;
+        background: url("../images/footer-3.jpg") no-repeat center center;
         background-size: cover;
         background-position: fixed;
     }
