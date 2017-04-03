@@ -168,17 +168,25 @@ h3 {
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 100%;
-    height: 70%;
+    min-width: 100%;
+    min-height: 70%;
+    width: auto;
+    height: auto;
     overflow: hidden;
     z-index: -10; 
 }
 
-/*video {
+.bgvideo {
     position: absolute;
-    z-index: -10;
-    width: 100%; 
-}*/
+    z-index: 0;
+    background-size: 100% 100%;
+    top: 0px;
+    left: 0px; /* fixed to left. Replace it by right if you want.*/
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
 
 .brandvideo {
     max-width: 100%;
@@ -384,8 +392,8 @@ Placement With Purpose
     position:relative;
 	padding-bottom:56.25%;
 	padding-top:30px;
-	height:0;
-	overflow:hidden;
+	height: 100;
+	overflow: hidden;
 }
 
 .embed-responsive-item {
