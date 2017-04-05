@@ -273,10 +273,10 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label for="sel1">Why are you contacting us?*</label>
-                                            <select>
-                                                <option>Looking for work?</option>
-                                                <option>Looking for staff?</option>
-                                                <option>Looking for software?</option>
+                                            <select name="option_select">
+                                                <option value="work">Looking for work?</option>
+                                                <option value="staff">Looking for staff?</option>
+                                                <option value="software">Looking for software?</option>
                                             </select>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -291,6 +291,7 @@
                                     <div class="col-md-12">
                                             <a class="btn btn-success btn-send" id="submitButton" href="">Send Message</a>
                                             <br></br>
+                                            <input type="hidden" id="form_type" name="form_type" value="contact_us">
                                     </div>
                                         <br></br>
                                     <div class="row">
