@@ -18,9 +18,9 @@ $(document).ready(function(){
             }, 800);
             return false;
         });
-        
+
         $('#back-to-top').tooltip('show');
-    
+
 });
 
 /*=================
@@ -46,18 +46,16 @@ $(function () {
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
             var url = "technology/contact.php";
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
-                success: function (data)
-                {
+            var f = $(this).serializeArray();
+            $.post(url, {
+                fields:f
+            }, function (result) {
+                console.log(result);
+                 $("#myModal").modal('hide');
                     alert("Thank you");
-                }
             });
+
             return false;
         }
     })
 });
- 
