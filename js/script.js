@@ -47,12 +47,13 @@ $(function () {
         if (!e.isDefaultPrevented()) {
             var url = "technology/contact.php";
             var f = $(this).serializeArray();
-            $("#submitButton").css('display', 'none');
             $("#loading_div").css('display', 'block');
+            $("#submitButton").css('display', 'none');
             $.post(url, {
                 fields:f
             }, function (result) {
-                $("#loading_div").css('display', 'none');;
+                $("#loading_div").css('display', 'none');
+                $("#submitButton").css('display', 'block');
                  $("#myModal").modal('hide');
                     alert("Thank you");
             });
