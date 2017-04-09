@@ -54,9 +54,10 @@ $(function () {
             }, function (result) {
                 $("#loading_div").css('display', 'none');
                 $("#submitButton").css('display', 'block');
+                $('#contact-form').trigger("reset"); 
                 $("#myModal").modal('hide');
                     alert("Thank you");
-                $('#contact-form').trigger("reset"); 
+                
             });
 
             return false;
