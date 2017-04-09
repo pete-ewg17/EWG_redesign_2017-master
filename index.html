@@ -238,7 +238,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Contact Us</h4> </div>
+                    <h4 class="modal-title" id="myModalLabel">Contact Us</h4> 
+                </div>
                 <div class="modal-body">
                     <div class="col-lg-8 col-lg-offset-2">
                         <form id="contact-form" method="post" role="form">
@@ -246,8 +247,6 @@
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div id= "loading_div" style= "display:none">LOADING</div>
-                                        <div id= "submitted_div" style= "display:none">Submitted</div>
                                         <div class="form-group" data-toggle="validator" role="form">
                                             <label for="form_name">Name*</label>
                                             <input id="contact_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Name is required." >
@@ -292,24 +291,27 @@
                                     </div>
                                     <div class="col-md-12">
                                             <button type="submit" class="btn btn-success btn-send" id="submitButton">Send Message</button>
-                                            <br></br>
+                                            <br>
                                             <input type="hidden" id="form_type" name="form_type" value="contact_us">
                                     </div>
-                                        <br></br>
+                                        <br>
                                     <div class="row">
                                         <div class="col-md-12">
+                                            <div id= "loading_div" style= "display:none">LOADING</div>
+                                            <div id= "submitted_div" style= "display:none">Submitted</div>
                                             <p class="text-muted"><strong>*</strong> These fields are required.</p>
                                         </div>
                                     </div>
                                 </div>
-                        </form>
-                        </div>
+                            </div>
+                        </form>    
                     </div>
                     <div class="modal-footer"></div>
-                </div>
-                <!-- /.modal-content -->
+                </div>  <!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+    </div> 
+        
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
@@ -317,7 +319,7 @@
         <!--ANIMATE ON SCROLL -->
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <!--VALIDATOR FOR CONTACT FORM-->
-    <script src="js/validator.js"></script>
+        <script src="js/validator.js"></script>
         <!--Web Script-->
         <script src="js/script.js"></script>
 </body>
