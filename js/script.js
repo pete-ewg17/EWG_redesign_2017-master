@@ -56,6 +56,7 @@ $(function () {
                 $("#submitButton").css('display', 'block');
                 $("form").trigger("reset"); 
                 $("#myModal").modal('hide');
+                $("#contact-form").trigger("reset");
                     alert("Thank you");
                 
             });
