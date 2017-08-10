@@ -5,33 +5,6 @@ $title = "Event Technology Melbourne, Sydney, Perth, Adelaide, ACT Australia, UK
 $desc = "Event Workforce Group specialises in event technology and event software in Melbourne, Syndey, Perth, Adelaide, ACT Australia, UK, USA.";
 include $file_base."template_files/header.php";
 ?>
-
-
-
-
-<body>
-	<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top topnav animated fadeInDown" role="navigation">
-		<div class="container topnav">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
-				<a class="navbar-brand topnav" href="index.html"><img class="logo" src="images/EWG_Group_Logo_initials.svg" alt="EWG Logo"></a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/academy" target="_blank">Academy</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/talent" target="_blank">Talent</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/technology/" target="_blank">Technology</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/knowledge/">Knowledge</a> </li>
-					<li class="hvr-underline-from-center"> <a data-toggle="modal" data-target="#myModal" href="#myModal" \>Contact Us</a> </li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
 	<!-- Header -->
 	<a name="about"></a>
 	<div class="intro-header">
