@@ -101,7 +101,7 @@ if(!isset($desc)) {
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/talent" target="_blank">Talent</a> </li>
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/technology/" target="_blank">Technology</a> </li>
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/knowledge/">Knowledge</a> </li>
-					<li class="hvr-underline-from-center"> <a href="mailto:info@eventworkforcegroup.com?Subject=Hello" \>Contact Us</a> </li>
+					<li class="hvr-underline-from-center"> <a href="mailto:info@eventworkforcegroup.com?Subject=Hello">Contact Us</a> </li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
