@@ -136,33 +136,7 @@ include $file_base."template_files/header.php";
 	</div>
 	<!-- /.banner -->
 
-	<!-- Footer -->
-	<footer class="footer-img img-reponsive">
-		<div class="container">
-			<div class="row" align="center">
-				<div class="col-md-12">
-					<ul class="list-inline">
-						<li>
-							<a href="http://eventworkforcegroup.com/academy" target="_blank"><img src="images/ewg_acad_logo.svg" class="img-responsive footer-logo" alt="Academy Logo"> Academy</a>
-						</li>
-						<li>
-							<a href="http://eventworkforcegroup.com/talent" target="_blank"> <img src="images/ewg_talent_logo.svg" class="img-responsive footer-logo" alt="Talent Logo"> Talent</a>
-						</li>
-						<li>
-							<a href="http://eventworkforcegroup.com/technology" target="_blank"> <img src="images/ewg_tech_logo.svg" class="img-responsive footer-logo" alt="Technology Logo">Technology</a>
-						</li>
-					</ul>
-					<p class="copyright text-muted small">Australia: 80 Market Street, Southbank VIC 3205 Australia - America: 180 Sansome St, San Francisco, CA 94104, USA</p>
-					<p class="copyright text-muted small">Copyright &copy; Event Workforce Group 2017. All Rights Reserved</p>
-					<p class="small"><a href="https://rosterfy.co/rosterfy_terms">Terms &amp; Conditions</a> <a href="https://eventworkforcegroup.com/technology/privacy-policy.php">Privacy Policy</a></p>
-					<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
-				</div>
-			</div>
-		</div>
-	</footer>
-
 	<!-- MODAL FOR CONTACT -->
-
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
