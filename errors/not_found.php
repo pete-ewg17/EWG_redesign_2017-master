@@ -1,6 +1,5 @@
-
 <?php
-$file_base = "";
+$file_base = "../";
 $title = "Event Technology Melbourne, Sydney, Perth, Adelaide, ACT Australia, UK, USA";
 $desc = "Event Workforce Group specialises in event technology and event software in Melbourne, Syndey, Perth, Adelaide, ACT Australia, UK, USA.";
 include $file_base."template_files/header.php";
@@ -22,7 +21,7 @@ include $file_base."template_files/header.php";
 			<!--ACADEMY-->
 			<div class="row" data-aos="fade-up" data-aos-once="true">
 				<div class="col-md-4">
-					<div class="thumbnail"> <img class="th-logo" src="images/acad_logo.png" alt="Academy Logo">
+					<div class="thumbnail"> <img class="th-logo" src="<?php echo $file_base; ?>images/acad_logo.png" alt="Academy Logo">
 						<div class="caption">
 							<h3 class="head-acad">Looking For Work?</h3>
 							<p>Event Workforce Group Academy provides tertiary institutes along with their students and graduates an academy to gain industry relevant training, certificates and casual work until they are qualified to gain full time employment in the industry of their chosen pathway.</p>
@@ -32,7 +31,7 @@ include $file_base."template_files/header.php";
 				</div>
 				<!--TALENT-->
 				<div class="col-md-4">
-					<div class="thumbnail"> <img class="th-logo" src="images/talent.png" alt="Talent Logo">
+					<div class="thumbnail"> <img class="th-logo" src="<?php echo $file_base; ?>images/talent.png" alt="Talent Logo">
 						<div class="caption">
 							<h3 class="head-acad">Looking For Motivated Staff?</h3>
 							<p>Event Workforce Group Talent is the leading event workforce solution for Australia’s biggest events, agencies and brands. We provide motivated and experienced staff (known as ‘Workforcers’) for events in all shapes and sizes.</p>
@@ -42,7 +41,7 @@ include $file_base."template_files/header.php";
 				</div>
 				<!--TECH-->
 				<div class="col-md-4">
-					<div class="thumbnail"> <img class="th-logo" src="images/tech_logo.png" alt="Technology Logo">
+					<div class="thumbnail"> <img class="th-logo" src="<?php echo $file_base; ?>images/tech_logo.png" alt="Technology Logo">
 						<div class="caption">
 							<h3 class="head-acad">Want To Simplify Running An Event?</h3>
 							<p>Event Workforce Group Technology is a global-leading, digital workforce management platform, enabling event organisers to employ a fully integrated rostering, training, and accrediting system to mobilise their workforce.</p>

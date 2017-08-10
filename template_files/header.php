@@ -9,6 +9,7 @@ if(!isset($desc)) {
 	$desc = "";
 }
 	$url = $_SERVER['PHP_SELF'];
+	
 ?>
 
 
@@ -28,32 +29,32 @@ if(!isset($desc)) {
 	<meta property="og:url" content="http://eventworkforcegroup.com">
 	<title>Welcome | Event Workforce Group</title>
 	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo $file_base; ?>css/bootstrap.min.css" rel="stylesheet">
 	<!-- Custom CSS -->
-	<link href="css/landing-page.css" rel="stylesheet">
-	<link href="css/hover.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
+	<link href="<?php echo $file_base; ?>css/landing-page.css" rel="stylesheet">
+	<link href="<?php echo $file_base; ?>css/hover.css" rel="stylesheet">
+	<link href="<?php echo $file_base; ?>css/animate.css" rel="stylesheet">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<!-- Custom Fonts -->
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo $file_base; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<!--FAVICONS-->
-	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="images/favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo $file_base; ?>images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="<?php echo $file_base; ?>images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo $file_base; ?>images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo $file_base; ?>images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo $file_base; ?>images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo $file_base; ?>images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo $file_base; ?>images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo $file_base; ?>images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $file_base; ?>images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="<?php echo $file_base; ?>images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $file_base; ?>images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="<?php echo $file_base; ?>images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $file_base; ?>images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="<?php echo $file_base; ?>images/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="<?php echo $file_base; ?>images/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 
@@ -92,7 +93,7 @@ if(!isset($desc)) {
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button>
-				<a class="navbar-brand topnav" href="index"><img class="logo" src="images/EWG_Group_Logo_initials.svg" alt="EWG Logo"></a>
+				<a class="navbar-brand topnav" href="<?php echo $file_base; ?>index"><img class="logo" src="<?php echo $file_base; ?>images/EWG_Group_Logo_initials.svg" alt="EWG Logo"></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -101,7 +102,7 @@ if(!isset($desc)) {
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/talent" target="_blank">Talent</a> </li>
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/technology/" target="_blank">Technology</a> </li>
 					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/knowledge/">Knowledge</a> </li>
-					<li class="hvr-underline-from-center"> <a href="mailto:info@eventworkforcegroup.com?Subject=Hello">Contact Us</a> </li>
+					<li class="hvr-underline-from-center"> <a data-toggle="modal" data-target="#myModal">Contact Us</a> </li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
