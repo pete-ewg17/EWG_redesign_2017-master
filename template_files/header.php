@@ -57,8 +57,11 @@ if(!isset($desc)) {
 	<meta name="theme-color" content="#ffffff">
 
 
+
+
 			<!-- ANALYTICS -->
-			<script >
+	<script>
+
 			(function(i, s, o, g, r, a, m) {
 				i['GoogleAnalyticsObject'] = r;
 				i[r] = i[r] || function() {
@@ -109,3 +112,7 @@ if(!isset($desc)) {
 	</nav>
 
 
+=======
+
+<?php>
+>>>>>>> origin/master
