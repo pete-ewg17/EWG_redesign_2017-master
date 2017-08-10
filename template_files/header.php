@@ -61,7 +61,6 @@ if(!isset($desc)) {
 
 			<!-- ANALYTICS -->
 	<script>
-
 			(function(i, s, o, g, r, a, m) {
 				i['GoogleAnalyticsObject'] = r;
 				i[r] = i[r] || function() {
@@ -76,7 +75,6 @@ if(!isset($desc)) {
 
 		ga('create', 'UA-96562946-2', 'auto');
 		ga('send', 'pageview');
-
 	</script>
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
