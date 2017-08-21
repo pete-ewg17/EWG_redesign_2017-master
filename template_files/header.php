@@ -98,10 +98,10 @@ if(!isset($desc)) {
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/academy" target="_blank">Academy</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/talent" target="_blank">Talent</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/technology/" target="_blank">Technology</a> </li>
-					<li class="hvr-underline-from-center"> <a href="http://eventworkforcegroup.com/knowledge/">Knowledge</a> </li>
+					<li class="hvr-underline-from-center"> <a href="https://eventworkforcegroup.com/academy" target="_blank">Academy</a> </li>
+					<li class="hvr-underline-from-center"> <a href="https://eventworkforcegroup.com/talent" target="_blank">Talent</a> </li>
+					<li class="hvr-underline-from-center"> <a href="https://eventworkforcegroup.com/technology/" target="_blank">Technology</a> </li>
+					<li class="hvr-underline-from-center"> <a href="https://eventworkforcegroup.com/knowledge/">Knowledge</a> </li>
 					<li class="hvr-underline-from-center"> <a data-toggle="modal" data-target="#myModal">Contact Us</a> </li>
 				</ul>
 			</div>
